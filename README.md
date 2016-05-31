@@ -9,6 +9,7 @@ Project planning is in [waffle](https://waffle.io/vta/OTP).
  * [OTP](#otp)
  * [GTFS](#gtfs)
  * [GTFS-realtime](#gtfsrt)
+ * [GTFS-realtime-proto](#gtfsrt-proto)
  * [GBFS](#gbfs)
  * [Geocoding](#geocoding)
  * [Analysis Tools](#analysis)
@@ -22,8 +23,8 @@ Refers to the open standard for [General Transit Feed Specification](https://dev
 ## <a name="gtfsrt"></a>GTFS-realtime
 Refers to the open standard for [GTFS-realtime](https://developers.google.com/transit/gtfs-realtime/)
 
-## <a name="gtfsrt-proto"></aGTFS-realtime-proto
-Refers to the open standard for [GTFS-realtime](https://developers.google.com/transit/gtfs-realtime/gtfs-realtime-proto)
+## <a name="gtfsrt-proto"></a>GTFS-realtime-proto
+Refers to the open standard for [GTFS-realtime-proto](https://developers.google.com/transit/gtfs-realtime/gtfs-realtime-proto)
 
 ## <a name="gbfs"></a>GBFS
 Refers to the open draft for the [General Bikeshare Feed Specification](https://github.com/NABSA/gbfs)
