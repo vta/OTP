@@ -12,6 +12,7 @@ Project planning is in [waffle](https://waffle.io/vta/OTP).
  * [GTFS-realtime-proto](#gtfsrt-proto)
  * [GBFS](#gbfs)
  * [Geocoding](#geocoding)
+ * [User Interface](#UI)
  * [Analysis Tools](#analysis)
 
 ## <a name="otp"></a>Open Trip Planner (OTP)
@@ -34,5 +35,9 @@ Refers to the open draft for the [General Bikeshare Feed Specification](https://
 
 Currently we are using the [Google Maps API](https://developers.google.com/maps/premium/) in order to leverage the Google Geocoder .
 The trip planner infrastructure is also designed to be able to consume the [Mapzen Pelias](https://github.com/pelias/pelias) geocoder when we have the point address problems mitigated, 
+
+## <a name="user interface"></a>User Interface
+
+We are using the open source user interface [Modeify](https://github.com/amigocloud/modeify) originally developed by [Conveyal](http://conveyal.com/) for Arlington, VA project [Car Free From A to Z](http://www.carfreeatoz.com/).  AmigoCloud has worked to update and modify Modeify per our feedback.
 
 ## <a name="analysis"></a>Analysis Tools
