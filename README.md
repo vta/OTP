@@ -32,7 +32,7 @@ Refers to the open draft for the [General Bikeshare Feed Specification](https://
 
 ## <a name="geocoding"></a>Geocoding
 
-Currently we are using the [Google Maps API] in order to leverage the Google Geocoder (https://developers.google.com/maps/premium/).
-The trip planner infrastructure is also designed to be able to consume the [Mpazen Pelias] geocoder when we have the point address problems mitigated, (https://github.com/pelias/pelias)
+Currently we are using the [Google Maps API](https://developers.google.com/maps/premium/) in order to leverage the Google Geocoder .
+The trip planner infrastructure is also designed to be able to consume the [Mpazen Pelias](https://github.com/pelias/pelias) geocoder when we have the point address problems mitigated, 
 
 ## <a name="analysis"></a>Analysis Tools
