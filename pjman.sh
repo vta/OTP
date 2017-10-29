@@ -68,13 +68,20 @@ chkrootkit \
 rkhunter \
 nodejs
 #
-sudo update-grub
-sudo updatedb
-#
-sudo apt-get install supervisor fail2ban maven
+sudo apt-get install supervisor fail2ban maven python-pip
+sudo pip install --upgrade pip
+sudo pip install transitfeed==1.2.15-blah
 sudo apt-get autoclean
 sudo apt-get autoremove
 sudo update
+#
+sudo update-grub
+sudo updatedb
+#
+sudo update-rc.d supervisor enable
+sudo update-rc.d fail2ban enable
+sudo update-rc.d mongodb enable
+sudo update-rc.d apache2 enable
 #
 sudo swapon -s
 sudo fallocate -l 4G /swapfile
@@ -83,9 +90,12 @@ sudo mkswap /swapfile
 sudo swapon /swapfile
 sudo swapon -s
 cat /proc/sys/vm/swappiness
-sudo printf "/swapfile\tnone\tswap\tsw\t0\t0\n" >> /etc/fstab
-sudo vim /etc/fstab
 #
 free -m
 df -h
-
+#
+sudo printf "/swapfile\tnone\tswap\tsw\t0\t0\n" >> /etc/fstab
+printf "Please confirm /etc/fstab is correct and reboot for changes to take effect\n"
+printf "sudo vim /etc/fstab"
+printf "sudo mount -a"
+#
