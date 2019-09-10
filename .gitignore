@@ -1,0 +1,10 @@
+gtfs-manager
+OTP
+data
+data_tmp
+logs
+lucene
+modeify
+OpenTripPlanner
+.idea
+*.iml
